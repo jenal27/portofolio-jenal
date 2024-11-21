@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zainal | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'Dancing Script', cursive;
+            /* Gunakan font artistik */
+            font-size: 3rem;
+            /* Ukuran besar dan menonjol */
+            color: black;
+            /* Warna ungu elegan */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            /* Tambahkan bayangan */
+            letter-spacing: 2px;
+            /* Jarak antar huruf */
+        }
+
+        .content {
+            position: relative;
+            width: 90%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .slider-wrapper {
+            display: flex;
+            width: calc(250px * 21);
+            /* 6 adalah jumlah kartu */
+            animation: scroll 14s linear infinite;
+        }
+
+        .slider {
+            display: flex;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .card {
+            min-width: 250px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/logo-zainal.png" alt="Logo Zainal" width="90px" height="30px"
+            style="margin-right: auto; margin-left: 90px;">
+        <a href="index.html" class="header-text">Home</a>
+        <a href="about.html" class="header-text">About</a>
+        <a href="gambar.html" class="header-text">Portfolio</a>
+        <a href="contact.html" class="header-text" style="margin-right: 200px;">Contact</a>
+    </header>
+
+    <h2>HOME</h2>
+
+    <main class="content">
+        <div class="slider-wrapper">
+            <div class="slider">
+
+            </div>
+
+            <!-- Slider Duplikat -->
+            <div class="slider">
+                <div class="card">
+                    <img src="sketch/1.PNG" alt="Sketch 1">
+                    <h3>Sketch 1</h3>
+                </div>
+                <div class="card">
+                    <img src="sketch/2.PNG" alt="Sketch 2">
+                    <h3>Sketch 2</h3>
+                </div>
+                <div class="card">
+                    <img src="sketch/3.PNG" alt="Sketch 3">
+                    <h3>Sketch 3</h3>
+                </div>
+                <div class="card">
+                    <img src="sketch/4.PNG" alt="Sketch 4">
+                    <h3>Sketch 4</h3>
+                </div>
+                <div class="card">
+                    <img src="sketch/5.PNG" alt="Sketch 5">
+                    <h3>Sketch 5</h3>
+                </div>
+                <div class="card">
+                    <img src="sketch/6.PNG" alt="Sketch 6">
+                    <h3>Sketch 6</h3>
+                </div>
+                <div class="card">
+                    <img src="sketch/7.PNG" alt="Sketch 7">
+                    <h3>Sketch 7</h3>
+                </div>
+                <div class="card">
+                    <img src="sketch/8.PNG" alt="Sketch 8">
+                    <h3>Sketch 8</h3>
+                </div>
+                <div class="card">
+                    <img src="sketch/9.PNG" alt="Sketch 9">
+                    <h3>Sketch 9</h3>
+                </div>
+                <div class="card">
+                    <img src="drawing/1.PNG" alt="Sketch 1">
+                    <h3>Drawing 1</h3>
+                </div>
+                <div class="card">
+                    <img src="drawing/2.PNG" alt="Sketch 2">
+                    <h3>Drawing 2</h3>
+                </div>
+                <div class="card">
+                    <img src="drawing/3.PNG" alt="Sketch 3">
+                    <h3>Drawing 3</h3>
+                </div>
+                <div class="card">
+                    <img src="drawing/4.jpg" alt="Sketch 4">
+                    <h3>Typografi 4</h3>
+                </div>
+                <div class="card">
+                    <img src="drawing/5.jpg" alt="Sketch 5">
+                    <h3>Typografi 5</h3>
+                </div>
+                <div class="card">
+                    <img src="drawing/6.jpg" alt="Sketch 6">
+                    <h3>Nirmana 6</h3>
+                </div>
+                <div class="card">
+                    <img src="drawing/7.jpg" alt="Sketch 7">
+                    <h3>Nirmana 7</h3>
+                </div>
+                <div class="card">
+                    <img src="drawing/8.jpg" alt="Sketch 8">
+                    <h3>Nirmana 8</h3>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <section style="padding: 20px; text-align: center; font-family: Arial, sans-serif;">
+        <h3 style="font-size: 24px; color: #333; margin-bottom: 10px;">HELLO, MY PORTOFOLIO WEBSITE</h3>
+        <p style="font-size: 16px; line-height: 1.6; color: #555; max-width: 800px; margin: 0 auto;">
+            Portofolio DKV (Desain Komunikasi Visual) adalah sebuah koleksi karya atau proyek yang menunjukkan
+            kemampuan, kreativitas, dan keahlian seorang desainer dalam bidang komunikasi visual. Portofolio ini
+            digunakan untuk memamerkan hasil karya yang mencakup berbagai aspek desain, seperti, ilustrasi, tipografi,
+            gambar sketch.
+        </p>
+    </section>
+
+    <footer class="footer">
+        Instagram: <a href="https://www.instagram.com/do.zarts/" class="footer-text">@do.zart</a>
+    </footer>
+</body>
+
+</html>
